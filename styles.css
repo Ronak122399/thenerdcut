@@ -1,0 +1,184 @@
+#mainpage
+body {
+    background-color: #000000; /* Black */
+    color: #FFFFFF; /* White text for better contrast */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav {
+    background-color: #da2121; /* Red*/
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #FFFFFF; /* White */
+    margin: 0 15px;
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: #0b357e; /* Blue */
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #BFC0C0; /* Soft Gray for hover effect */
+}
+
+h2 {
+    color: #f1f4f4; /* Soft Gray for subheadings */
+    text-align: center;
+    font-size: 2.5em; /* Adjust as needed */
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color:  #da2121; /* Red*/
+    ; /* Burnt Orange */
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Center and enlarge the h2 element on the homepage */
+#overview h2 {
+    text-align: center;
+    font-size: 3em; /* Adjust size as needed */
+    margin-top: 20px;
+    color: #000000; /* Change color as needed */
+}
+
+/* Existing styles in your styles.css file */
+body {
+    background-color: #2D3142; /* Dark Navy */
+    color: #FFFFFF; /* White text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for the movie section */
+.movie {
+    background-color: #2D3142; /* Dark Navy */
+    color: #FFFFFF;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.movie h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.movie-poster {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.trailer-link {
+    display: inline-block;
+    background-color: #EF8354; /* Burnt Orange */
+    color: #FFFFFF;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.trailer-link:hover {
+    background-color: #BFC0C0; /* Soft Gray */
+    color: #2D3142; /* Dark Navy */
+}
+.upcoming-image {
+    width: 100%;
+    max-width: 600px; /* Adjust to match your other movie sizes */
+    height: auto;
+    display: block;
+    margin: 20px 0; /* Removes auto centering */
+    border-radius: 8px; /* Optional: Add rounding if you prefer */
+}
+
+/* Styles for the Ticket section */
+#tickets {
+    padding: 20px;
+}
+
+#tickets h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.ticket-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around; /* Ensures content spreads evenly */
+    margin-top: 20px;
+}
+
+.ticket-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px; /* Adjust to fit within the page */
+    text-align: center;
+}
+
+.ticket-link img {
+    width: 100%;
+    max-width: 150px; /* Adjust for image sizing */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.ticket-link:hover {
+    background-color: transparent; /* Soft Gray for hover effect */
+    color: #2D3142; /* Dark Navy */
+}
+.ticket-link i {
+    margin-right: 10px;
+    font-size: 18px; /* Adjust as needed */
+    color: #FFFFFF; /* Match text color */
+    vertical-align: middle;
+}
+/* Styles for the New/Updates section */
+.news {
+    border-bottom: 1px solid #BFC0C0;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.news h3 {
+    font-size: 1.8em;
+    color: #EF8354; /* Burnt Orange */
+}
+
+.news p {
+    font-size: 1em;
+    color: #FFFFFF; /* White text for better readability */
+    margin-bottom: 10px;
+}
+
+.news .trailer-link {
+    display: inline-block;
+    background-color: #4F5D75; /* Slate Blue */
+    color: #FFFFFF;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.news .trailer-link:hover {
+    background-color: #EF8354; /* Burnt Orange on hover */
+}
